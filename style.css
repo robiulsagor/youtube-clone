@@ -309,3 +309,234 @@ nav .container {
         height: calc(100vh - 55px);
     }
 }
+
+/* ============================================= */
+/* play video page */
+
+.play-video {
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.video-main {
+    flex-basis: 69%;
+}
+
+.video-main video {
+    width: 100%;
+}
+
+.video-sidebar {
+    flex-basis: 27%;
+}
+
+.small-thumbnail {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: .7rem;
+}
+
+.small-thumbnail img {
+    flex-basis: 49%;
+    width: 20%;
+    border-radius: 6px;
+}
+
+.small-vid-info {
+    flex-basis: 49%;
+}
+
+.small-vid-info h3 {
+    color: #333;
+    font-weight: 700;
+    font-size: .88rem;
+    margin-bottom: .3rem;
+}
+
+.small-vid-info span {
+    display: block;
+    color: #727272;
+    font-weight: 500;
+    font-size: .84rem;
+}
+
+.tags a {
+    color: rgb(23, 58, 214);
+    font-size: .88rem;
+
+}
+
+.vid-title {
+    color: #3f3f3f;
+    margin-top: .4rem;
+}
+
+.vid-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .7rem;
+    font-size: .95rem;
+}
+
+.vid-info span {
+    flex: 1;
+    color: #727272;
+
+}
+
+.vid-reactions {
+    flex: 1;
+    text-align: right;
+}
+
+.vid-reactions img {
+    width: 20px;
+}
+
+.vid-reactions a {
+    display: inline-flex;
+    align-items: center;
+    gap: .2rem;
+    margin-left: 1rem;
+}
+
+.video-main hr {
+    border: 0;
+    height: 1px;
+    background: #d4cbcb;
+}
+
+.publisher-info {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.publisher-left {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.publisher-img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.publisher-left h2 {
+    color: #4b4949;
+    font-size: 1.17rem;
+}
+
+.publisher-left span {
+    color: #545353;
+    font-size: .9rem;
+    margin-top: -2px;
+    display: block;
+}
+
+.publisher-info button {
+    background: #a70404;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: .45rem 1.6rem;
+    font-size: .9rem;
+    font-family: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.desc {
+    margin-top: 1rem;
+    color: #6e6d6d;
+    font-size: .92rem;
+    font-weight: 500;
+}
+
+.margin-left {
+    margin-left: 50px;
+}
+
+.small-hr {
+    margin: 1rem 0;
+}
+
+.cmnt-count {
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.write-cmnt {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+}
+
+.write-cmnt img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.write-cmnt input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #a8a3a3;
+    background: transparent;
+    font-family: inherit;
+    padding: .5rem 0;
+}
+
+.comment {
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    margin-bottom: 1.5rem;
+}
+
+.comment img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.comment h3 {
+    font-size: .95rem;
+    color: #444;
+}
+
+.comment h3 span {
+    font-size: .8rem;
+    margin-left: .6rem;
+    font-weight: 400;
+    color: #444;
+}
+
+.comment-txt {
+    font-size: .93rem;
+    margin: .6rem 0;
+    color: #444;
+}
+
+.cmnt-reactions img {
+    width: 18px;
+}
+
+.cmnt-reactions {
+    display: flex;
+    gap: 1rem;
+}
+
+.cmnt-reactions a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: .88rem;
+}
+
+.cmnt-reactions a:last-child {
+    color: rgb(0, 21, 255) !important;
+}
