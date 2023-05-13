@@ -323,18 +323,19 @@ nav .container {
     flex-basis: 69%;
 }
 
-.video-main video {
-    width: 100%;
-}
-
 .video-sidebar {
     flex-basis: 27%;
+}
+
+.video-main video {
+    width: 100%;
 }
 
 .small-thumbnail {
     display: flex;
     margin-bottom: 1rem;
     gap: .7rem;
+    align-items: start;
 }
 
 .small-thumbnail img {
@@ -380,7 +381,7 @@ nav .container {
 }
 
 .vid-info span {
-    flex: 1;
+    /* flex: 1; */
     color: #727272;
 
 }
@@ -517,7 +518,7 @@ nav .container {
 
 .comment-txt {
     font-size: .93rem;
-    margin: .6rem 0;
+    margin: .3rem 0;
     color: #444;
 }
 
@@ -533,10 +534,67 @@ nav .container {
 .cmnt-reactions a {
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: .3rem;
     font-size: .88rem;
+    font-weight: 500;
 }
 
 .cmnt-reactions a:last-child {
     color: rgb(0, 21, 255) !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .video-main {
+        flex-basis: 60%;
+    }
+
+    .video-sidebar {
+        flex-basis: 37%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .menu-vid {
+        display: none;
+    }
+
+    /* .video-main {
+        flex-basis: 60%;
+    }
+
+    .video-sidebar {
+        flex-basis: 37%;
+    } */
+    .play-video {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .vid-info {
+        /* font-size: .8rem; */
+        flex-direction: column;
+        gap: .7rem;
+    }
+
+    .vid-reactions a {
+        gap: .1rem;
+        margin-left: .4rem;
+    }
+
+    .vid-reactions a:first-child {
+        margin-left: 0rem;
+    }
+
+    .vid-reactions {
+        text-align: left;
+
+    }
+
+    .margin-left {
+        margin-left: 0px;
+    }
+
+
 }
