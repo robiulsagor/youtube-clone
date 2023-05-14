@@ -249,7 +249,7 @@ nav .container {
 @media screen and (max-width: 900px) {
     .main-left {
         position: fixed;
-        left: -50%;
+        left: -90%;
         width: 25%;
         background: #fffbfb;
         overflow: auto;
